@@ -91,6 +91,7 @@ if b == "yes":
         elif a == 4:
             os.system("cls")
             def Activity4():
+                print("THIS IS THE EXAMPLE OF ADDING THE VALUE OF VARIABLE")
                 number1 = eval (input("enter a number--->" ))
                 number2 = eval (input("enter another number--->" ))
                 answer = (number1 + number2)
@@ -101,6 +102,7 @@ if b == "yes":
         elif a == 5:
             os.system("cls")
             def Activity5():
+                print("THIS FUNCTION IS THE EXAMPLE OF CONVERSION CELSUIS TO FARENHEIT")
                 print('\n\t\t\t\t\t\t=================================')
                 print('\t\t\t\t\t\t|FAHRENHEIT TO CELSIUS CONVERTER|')
                 print('\t\t\t\t\t\t=================================')
@@ -114,6 +116,12 @@ if b == "yes":
         elif a == 6:
             os.system("cls")
             def Activity6():
+                print("THIS FUNCTION IS THE EXAMPLE OF THE HOW THE DATA IN VARIABLE CHANGES")
+                print()
+                print("INPUT: \nx = 5\nprint(x)\nx = x + 10\nprint(x)\nx = x +15\nprint(x)\nx += 10\nprint(x)\nx+=20\nprint(x)")
+                print()
+                print("OUTPUT:")
+                print()
                 x = 5
                 print(x)
                 x = x + 10
