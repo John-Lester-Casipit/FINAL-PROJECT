@@ -2,6 +2,7 @@ import os
 
 isContinue = True
 no = 0
+
 while isContinue == True:
     ask = input("Would you like to add another triangle (yes / no )--> ")
 
