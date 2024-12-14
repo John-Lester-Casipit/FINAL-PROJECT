@@ -154,7 +154,7 @@ if b == "yes":
         elif a == 8:
             os.system("cls")
             def Activity8():
-                print("THIS IS THE EXAMPLE OF GIVE SOME STRING ")
+                print("THIS IS THE EXAMPLE OF GIVE SOME STRING NESTED CONDITION")
                 password = input('Enter your password---> ')
                 if password.lower() == "lester" :
                     print('Access Granted!!!!')
@@ -379,7 +379,20 @@ if b == "yes":
         elif a == 21:
             os.system("cls")
             def Activity21():
-                print("wala pang gawa")
+                def pang_hello():
+                    print("HELLO IT1C")
+                
+                def pang_hello_V2(name):
+                    print(f"Hello {name}")
+                
+                tuloy = True
+                while tuloy == True:
+                    ask = input("Please provide a name --> ")
+                    if ask.lower() != "stop":
+                        pang_hello_V2(ask)
+                    else:
+                        break
+
             Activity21()
             continue
 
