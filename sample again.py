@@ -3,8 +3,8 @@ odd = 0
 even =[]
 
 while tuloy == True:
-    num = eval(input("Enter a number (press 0 to exit the loop)"))
-    if num == 0:
+    num = eval(input(f"Enter a number (press zero to exit the loop): "))
+    if num == 'zero'.lower():
         print (f"the sum of all odd is {odd}")
         print (even)
         break

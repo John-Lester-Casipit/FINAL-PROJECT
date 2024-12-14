@@ -2,7 +2,7 @@
     # JOHN LESTER F. CASIPIT
     # BSIT-1C
 b=input ("Would you like to enter my final project? (yes/no): ")
-if b == "yes":
+if b == 'yes'.lower():
     import os
     tuloy = True
     while tuloy == True:
@@ -171,6 +171,11 @@ if b == "yes":
         elif a == 9:
             os.system("cls")
             def Activity9():
+                print()
+                print()
+                print("THIS IS ACTIVITY 9")
+                print("tHIS IS THE EXAMPLE ON HOW YOU USE THE ARITHMETHIC OPERATORS")
+                print()
                 age=eval(input('Enter your age here--->'))
                 if age >=60:
                         print("You are a senior citizen")
@@ -192,6 +197,10 @@ if b == "yes":
         elif a == 10:
             os.system("cls")
             def Activity10():
+                print()
+                print()
+                print("THIS IS ACTIVITY 10")
+                print("THIS IS THE EXAMPLE OF USING THE NESTED CONDITION INSIDE THE NESTEDD CONDITION")
                 isDLL= input('Are you a current student of DLL (yes/no):  ')
 
                 if isDLL.lower() == 'yes':
@@ -227,6 +236,10 @@ if b == "yes":
         elif a == 11:
             os.system("cls")
             def Activity11():
+                print()
+                print()
+                print("THIS IS THE ACTIVITY 11")
+                print("THIS IS THE EXAMPLE OF THE FOR LOOP")
                 for x in range (6,1,-1):
                     for y in range (1, x + 1):
                         print(" ",end=" ")
@@ -250,6 +263,10 @@ if b == "yes":
         elif a == 12:
             os.system("cls")
             def Activity12():
+                print()
+                print()
+                print("THIS IS THE ACTIVITY 12")
+                print("THIS IS THE EXAMPLE OF THE FOR LOOP")
                 for cycle in range (10,0,-1):
                     print(cycle)
             Activity12()
@@ -258,6 +275,10 @@ if b == "yes":
         elif a == 13:
             os.system("cls")
             def Activity13():
+                print()
+                print()
+                print("THIS IS THE ACTIVITY 13")
+                print("THIS IS THE EXAMPLE OF THE FACTORIAL INSIDE THE LOOP")
                 sum = 1
                 num=int(input('Enter a number: '))
 
@@ -437,6 +458,8 @@ if b == "yes":
         elif a == 101:
             os.system("cls")
             def Code_Challenge1():
+                print("THIS IS CODE CHALLENGE 1")
+                print("THIS IS THE EXAMPLE ON HOW YOU USE THE OPERATORS BUILT IN PYTHON")
                 print("\n\n\n\t\t\t\t\t\t\t\t\t\t\t\b\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t \t*\t*\t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*")
             Code_Challenge1()
             continue
@@ -452,6 +475,9 @@ if b == "yes":
         elif a == 103:
             os.system("cls")
             def Code_Challenge3():
+                print()
+                print()
+                print("THIS IS THE EXAMPLE ON HOW YOU PRINT WITH MULTIPLE VARIABLES")
                 name = input("Please input your name here ---> ")
                 fname = input("Please input your fname here ---> ")
                 mname = input("Please input your mname here ---> ")
@@ -475,6 +501,10 @@ if b == "yes":
         elif a == 104:
             os.system("cls")
             def Code_Challenge4():
+                print()
+                print()
+                print("THIS IS CODE CHALLENGE 4")
+                print("THIS IS THE EXAMPLE OF USING SUBJECT OPERATORS")
                 no1 = eval(input("choose a number---> "))
                 no2 = eval(input("choose another number ----> "))
                 ans1 = (no1 + no2)
@@ -498,6 +528,10 @@ if b == "yes":
         elif a == 105:
             os.system("cls")
             def Code_Challenge5():
+                print()
+                print()
+                print("THIS IS CODE CHALLENGE 5 ")
+                print("THIS IS THE EXAMPLE OF THe BREAKDOWN OF ONE OF THE VALUE OF VARIABLES")
                 name=input("enter a name:")
                 amount=eval(input("enter amount to deposit:"))
 
