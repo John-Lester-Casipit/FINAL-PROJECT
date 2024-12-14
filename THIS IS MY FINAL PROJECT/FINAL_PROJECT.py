@@ -56,7 +56,7 @@ if b == "yes":
                 name = input( "Please enter a name -----> " )
                 print ( "Hi!" + name )
                 print()
-                print ('INPUT:  name = input( "Please enter a name -----> " ')
+                print ('INPUT:  name = input( "Please enter a name -----> ") ')
                 print ('OUTPUT: ( "Hi!" + name )')
                 print('===========================================================')
             Activity2()
@@ -137,6 +137,9 @@ if b == "yes":
         elif a == 7:
             os.system("cls")
             def Activity7():
+                print()
+                print('THIS IS THE EXAMPLE OF HAVE AN NESTED CONDITION AND USE OPERATORS')
+                print()
                 gold = 0
                 name=input('Hi, enter your name:  ')
                 hasMine=input('Did you mine gold today?  ')
@@ -151,6 +154,7 @@ if b == "yes":
         elif a == 8:
             os.system("cls")
             def Activity8():
+                print("THIS IS THE EXAMPLE OF GIVE SOME STRING ")
                 password = input('Enter your password---> ')
                 if password.lower() == "lester" :
                     print('Access Granted!!!!')
@@ -288,14 +292,20 @@ if b == "yes":
 
         elif a == 16:
             os.system("cls")
-            def Activity16():
-                for x in range (1,11,):
+            def Activity16(Activity16):
+                print()
+                print()
+                print("THIS IS ACTIVITY 16")
+                print("THIS IS THE EXAMPLE OF FOR LOOP WITH NESTED CONDITION")
+                print()
+                print()
+                for x in range (1,11):
                     for y in range (1, x + 1):
                         print(" ",end=" ")
-                for z in range(11, x, -1):
-                    print(" * ",end=" ")
-                print()
-            Activity16()
+                    for z in range(11, x, -1):
+                        print(" * ",end=" ")
+                    print()
+            Activity16(Activity16)
             continue
 
         elif a == 17:
