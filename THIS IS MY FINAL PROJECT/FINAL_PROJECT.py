@@ -38,6 +38,8 @@ if b == 'yes'.lower():
             os.system("cls")
             def Activity1():
                 print()
+                print()
+            
                 print('|====================================================|')
                 print("|This is the example on how you print                |")
                 print('|                                                    |')
