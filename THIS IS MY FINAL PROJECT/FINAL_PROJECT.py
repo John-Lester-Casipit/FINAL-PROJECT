@@ -561,9 +561,11 @@ if b == 'yes'.lower():
         elif a == 101:
             os.system("cls")
             def Code_Challenge1():
-                print("ESCAPE SEQUENCE")
-                print("THIS IS CODE CHALLENGE 1")
-                print("THIS IS THE EXAMPLE ON HOW YOU USE THE OPERATORS BUILT IN PYTHON")
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 1")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE ON HOW YOU USE ESCAPE SEQUENCE")
                 print("\n\n\n\t\t\t\t\t\t\t\t\t\t\t\b\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t \t*\t*\t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*")
             Code_Challenge1()
             continue
@@ -571,6 +573,11 @@ if b == 'yes'.lower():
         elif a == 102:
             os.system("cls")
             def Code_Challenge2():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 2")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE ON HOW YOU USE ESCAPE SEQUENCE AND VARIABLE")
                 name = input("please enter your name ---->")
                 print(f"\n\n\n\t\t\t\t\t\t\t\t\t\t\t\b\t*\n\n\n\n\t\t\t\t\t\t\t\t\t      \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t \t*                  {name}                 \t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*")
             Code_Challenge2()
@@ -581,6 +588,8 @@ if b == 'yes'.lower():
             def Code_Challenge3():
                 print()
                 print()
+                print("\tTHIS IS CODE CHALLENGE 2")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE ON HOW YOU PRINT WITH MULTIPLE VARIABLES")
                 name = input("Please input your name here ---> ")
                 fname = input("Please input your fname here ---> ")
@@ -607,7 +616,8 @@ if b == 'yes'.lower():
             def Code_Challenge4():
                 print()
                 print()
-                print("THIS IS CODE CHALLENGE 4")
+                print("\tTHIS IS CODE CHALLENGE 4")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE OF USING SUBJECT OPERATORS")
                 no1 = eval(input("choose a number---> "))
                 no2 = eval(input("choose another number ----> "))
@@ -634,8 +644,9 @@ if b == 'yes'.lower():
             def Code_Challenge5():
                 print()
                 print()
-                print("THIS IS CODE CHALLENGE 5 ")
-                print("THIS IS THE EXAMPLE OF THe BREAKDOWN OF ONE OF THE VALUE OF VARIABLES")
+                print("\tTHIS IS CODE CHALLENGE 5 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF THE BREAKDOWN OF ONE OF THE VALUE OF VARIABLES")
                 name=input("enter a name:")
                 amount=eval(input("enter amount to deposit:"))
 
@@ -683,6 +694,11 @@ if b == 'yes'.lower():
         elif a == 106:
             os.system("cls")
             def Code_Challenge6():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 6 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF THE USE OF ASSIGNMENT OPERATORS")
                 prelim=eval(input('Enter your grade in prelim :'))
                 midterm=eval(input('Enter your grade in midterm :'))
                 semifinal=eval(input('Enter your grade in semifinal :'))
@@ -708,6 +724,11 @@ if b == 'yes'.lower():
         elif a == 107:
             os.system("cls")
             def Code_Challenge7():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 7 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF THe BREAKDOWN OF ONE OF THE VALUE OF VARIABLES")
                 A = input("DID YOU BUY A MEAT GOOD/s (yes/no)? ")
                 if A.upper() == "YES":
                     print('\nTHIS ARE THE LIST OF AVAILABLE MEAT GOODS')
@@ -786,6 +807,11 @@ if b == 'yes'.lower():
         elif a == 108:
             os.system("cls")
             def Code_Challenge8():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 8 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE COMBINATION OF LOOP AND ASSIGNMENT OPERATORS")
                 sum = 0
                 odd = 0
                 even = 0
@@ -807,6 +833,11 @@ if b == 'yes'.lower():
         elif a == 109:
             os.system("cls")
             def Code_Challenge9():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 9 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF  FOR LOOP")
                 a = int(input('enter a number: '))
                 for x in range (a, 0,-1):
                     for y in range(a,x,-1):
@@ -818,6 +849,11 @@ if b == 'yes'.lower():
         elif a == 110:
             os.system("cls")
             def Code_Challenge10():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 10 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF  FOR LOOP WITH MULTIPLE VARIABLE")
                 for x in range (6,0,-1):
                     for y in range (1, x + 1):
                         print(" ",end=" ")
@@ -841,6 +877,11 @@ if b == 'yes'.lower():
         elif a == 111:
             os.system("cls")
             def Code_Challenge11():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 11 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF  FOR LOOP")
                 for x in range (6,1,-1):
                     for y in range (1, x + 1):
                         print(" ",end=" ")
@@ -864,6 +905,11 @@ if b == 'yes'.lower():
         elif a == 112:
             os.system("cls")
             def Code_Challenge12():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 12 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF  FOR LOOP")
                 for x in range (6,0,-1):
                     for y in range (1, x + 1):
                         print(" ",end=" ")
@@ -885,6 +931,11 @@ if b == 'yes'.lower():
         elif a == 113:
             os.system("cls")
             def Code_Challenge13():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 13 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF  FOR LOOP")
                 for x in range (1,7):
                     for y in range (6, x , -1):
                         print(" ",end=" ")
@@ -894,24 +945,29 @@ if b == 'yes'.lower():
                         print(a,end=" ")
                     print()
                 
-                    for x in range (5,0,-1):
-                        for y in range (6, x, -1):
-                            print(" ",end=" ")
-                        for z in range(x, 1, -1):
-                            print(z,end=" ")
-                        for xx in range(1,x + 1):
-                            print(xx,end=" ")
-                        print()
+                for x in range (5,0,-1):
+                    for y in range (6, x, -1):
+                        print(" ",end=" ")
+                    for z in range(x, 1, -1):
+                        print(z,end=" ")
+                    for xx in range(1,x + 1):
+                         print(xx,end=" ")
+                    print()
             Code_Challenge13()
             continue
 
         elif a == 114:
             os.system("cls")
             def Code_Challenge14():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 14 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF WHILE LOOP")
                 tuloy = True
                 a = 0
                 while tuloy == True:
-                    number = eval(input("Enter a number--->  "))
+                    number = eval(input("Enter a number--->(press 0 to stop the program)  "))
                     if number == 0:
                         print("Program Terminated")
                         print(f"The total of the number you enter is {a}")
@@ -926,6 +982,11 @@ if b == 'yes'.lower():
         elif a == 115:
             os.system("cls")
             def Code_Challenge15():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 8 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF COMBINATION OF WHILE LOOP AND FOR LOOP")
                 import os
                 a = True
                 no = 0
@@ -954,6 +1015,11 @@ if b == 'yes'.lower():
         elif a == 116:
             os.system("cls")
             def Code_Challenge16():
+                print()
+                print()
+                print("\tTHIS IS CODE CHALLENGE 16 ")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF DEFINING A FUNCTION")
                 accounts = {}
 
                 def Create_Account():
@@ -1074,11 +1140,11 @@ if b == 'yes'.lower():
                         else:
                             print("Invalid option. Please try again.")
 
-                options()
+                            options()
             Code_Challenge16()
             continue
+        elif a == 0:
+            print("THANK YOU FOR VISITING MY FINAL PROJECT")
+            break
         else:
-            print("Thankyou for visiting my online project")
-        break
-else:
-    print("Program Terminated")
+            print("INVALID INPUT")
