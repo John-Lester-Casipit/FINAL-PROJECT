@@ -1,6 +1,7 @@
     # This is my Final Project
     # JOHN LESTER F. CASIPIT
     # BSIT-1C
+import os
 b=input ("Would you like to enter my final project? (yes/no): ")
 if b == 'yes'.lower():
     import os
@@ -38,6 +39,7 @@ if b == 'yes'.lower():
             os.system("cls")
             def Activity1():
                 print()
+                print("\t\tACTIVITY 1")
                 print('|====================================================|')
                 print("|This is the example on how you print                |")
                 print('|                                                    |')
@@ -51,6 +53,8 @@ if b == 'yes'.lower():
         elif a == 2:
             os.system("cls")
             def Activity2():
+                print()
+                print("\t\tACTIVITY 2")
                 print('===========================================================')
                 print("THIS IS THE EXAMPLE ON HOW YOU PRINT AND ADD ONE VARIABLE")
                 name = input( "Please enter a name -----> " )
@@ -65,6 +69,8 @@ if b == 'yes'.lower():
         elif a == 3:
             os.system("cls")
             def Activity3():
+                print()
+                print("\t\tACTIVITY 3")
                 print('===========================================================')
                 print()
                 print("THIS IS THE EXAMPLE ON HOW YOU PRINT WITH MULTIPLE VARIABLES")
@@ -82,8 +88,10 @@ if b == 'yes'.lower():
                 gender = input("Please input your gender here ---> ")
                 address = input("Please input your address here ---> ")
                 age = input("Please input your age here ---> ")
+                print()
+                print()
                 print('===========================================================')
-                print("\n\n\n\n\tHello, My name is,", pangalan ,"I'm", age ,"yrs old.\n\tI identify as", gender ,"\n\tMy father's name is", fname ,"\n\tMy mother's name is", mname ,"\n\tMy Bithday is in", birthmonth , birthdate , birthyear ,"\n\tI live in", address,"\n\tI am", maritalstatus ,"\n\tI am", ethnicity ,"Citizen\n\tMy mobile number is:", mobile ,"\n\tYou may contact me in my email:", email ,"\n\tThank You!!!")
+                print("\tHello, My name is,", pangalan ,"I'm", age ,"yrs old.\n\tI identify as", gender ,"\n\tMy father's name is", fname ,"\n\tMy mother's name is", mname ,"\n\tMy Bithday is in", birthmonth , birthdate , birthyear ,"\n\tI live in", address,"\n\tI am", maritalstatus ,"\n\tI am", ethnicity ,"Citizen\n\tMy mobile number is:", mobile ,"\n\tYou may contact me in my email:", email ,"\n\tThank You!!!")
                 print('===========================================================')
             Activity3()
             continue
@@ -91,17 +99,24 @@ if b == 'yes'.lower():
         elif a == 4:
             os.system("cls")
             def Activity4():
+                print()
+                print("\t\tACTIVITY 4")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE OF ADDING THE VALUE OF VARIABLE")
                 number1 = eval (input("enter a number--->" ))
                 number2 = eval (input("enter another number--->" ))
                 answer = (number1 + number2)
                 print("The sum of", number1 ,"and",number2,"is",answer)
+                print('===========================================================')
             Activity4()
             continue
 
         elif a == 5:
             os.system("cls")
             def Activity5():
+                print()
+                print("\t\tACTIVITY 5")
+                print('===========================================================')
                 print("THIS FUNCTION IS THE EXAMPLE OF CONVERSION CELSUIS TO FARENHEIT")
                 print('\n\t\t\t\t\t\t=================================')
                 print('\t\t\t\t\t\t|FAHRENHEIT TO CELSIUS CONVERTER|')
@@ -116,6 +131,9 @@ if b == 'yes'.lower():
         elif a == 6:
             os.system("cls")
             def Activity6():
+                print()
+                print("\t\tACTIVITY 6")
+                print('===========================================================')
                 print("THIS FUNCTION IS THE EXAMPLE OF THE HOW THE DATA IN VARIABLE CHANGES")
                 print()
                 print("INPUT: \nx = 5\nprint(x)\nx = x + 10\nprint(x)\nx = x +15\nprint(x)\nx += 10\nprint(x)\nx+=20\nprint(x)")
@@ -132,13 +150,17 @@ if b == 'yes'.lower():
                 print(x)
                 x+=20
                 print(x)
+                print('===========================================================')
             Activity6()
             continue
         elif a == 7:
             os.system("cls")
             def Activity7():
                 print()
+                print("\t\tACTIVITY 7")
+                print('===========================================================')
                 print('THIS IS THE EXAMPLE OF HAVE AN NESTED CONDITION AND USE OPERATORS')
+                print('===========================================================')
                 print()
                 gold = 0
                 name=input('Hi, enter your name:  ')
@@ -146,15 +168,20 @@ if b == 'yes'.lower():
                 if hasMine.lower() == "yes":
                     gold +=1
                     print(f'Hi! {name}, Today you have a total of {gold} gold')
+                    print('===========================================================')
                 else:
                     print(f'Hi! {name}, Today you have a total of {gold} gold')
+                    print('===========================================================')
             Activity7()
             continue
 
         elif a == 8:
             os.system("cls")
             def Activity8():
-                print("THIS IS THE EXAMPLE OF GIVE SOME STRING NESTED CONDITION")
+                print()
+                print("\t\tACTIVITY 8")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF GIVE SOME STRING NESTED CONDITION THRU STRING AND ENTERING PASSWORD")
                 password = input('Enter your password---> ')
                 if password.lower() == "lester" :
                     print('Access Granted!!!!')
@@ -173,8 +200,10 @@ if b == 'yes'.lower():
             def Activity9():
                 print()
                 print()
-                print("THIS IS ACTIVITY 9")
-                print("tHIS IS THE EXAMPLE ON HOW YOU USE THE ARITHMETHIC OPERATORS")
+                print("\t\tACTIVITY 9")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE ON HOW YOU USE THE ARITHMETHIC OPERATORS")
+                print("THIS PROGRAM IDENTIFY YOUR AGE")
                 print()
                 age=eval(input('Enter your age here--->'))
                 if age >=60:
@@ -199,7 +228,8 @@ if b == 'yes'.lower():
             def Activity10():
                 print()
                 print()
-                print("THIS IS ACTIVITY 10")
+                print("\t\tACTIVITY 10")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE OF USING THE NESTED CONDITION INSIDE THE NESTEDD CONDITION")
                 isDLL= input('Are you a current student of DLL (yes/no):  ')
 
@@ -238,25 +268,12 @@ if b == 'yes'.lower():
             def Activity11():
                 print()
                 print()
-                print("THIS IS THE ACTIVITY 11")
+                print("\t\tACTIVITY 11")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE OF THE FOR LOOP")
-                for x in range (6,1,-1):
-                    for y in range (1, x + 1):
-                        print(" ",end=" ")
-                for z in range(6, x, -1):
-                    print("*",end=" ")
-                for a in range(5, x, -1):
-                    print("*",end=" ")
-                print()
-                
-                for x in range (1,6):
-                    for y in range (1, x + 1):
-                        print(" ",end=" ")
-                    for z in range(5, x, -1):
-                        print("*",end=" ")
-                    for xx in range(6, x, -1):
-                        print("*",end=" ")
-                    print()
+                for me in range (1 , 10):
+                    print(me, 'HELLO WORLD')
+                    print('===========================================================')
             Activity11()
             continue
 
@@ -265,10 +282,11 @@ if b == 'yes'.lower():
             def Activity12():
                 print()
                 print()
-                print("THIS IS THE ACTIVITY 12")
+                print("\t\tACTIVITY 12")
                 print("THIS IS THE EXAMPLE OF THE FOR LOOP")
                 for cycle in range (10,0,-1):
                     print(cycle)
+                    print('===========================================================')
             Activity12()
             continue
 
@@ -277,14 +295,16 @@ if b == 'yes'.lower():
             def Activity13():
                 print()
                 print()
-                print("THIS IS THE ACTIVITY 13")
-                print("THIS IS THE EXAMPLE OF THE FACTORIAL INSIDE THE LOOP")
+                print("\t\tACTIVITY 13")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF THE FACTORIAL ")
                 sum = 1
                 num=int(input('Enter a number: '))
 
                 for x in range (num,0,-1):
                     sum *= x
                 print(f"The factorial of {num} is {sum}")
+                print('===========================================================')
             Activity13()
             continue
 
@@ -292,22 +312,33 @@ if b == 'yes'.lower():
         elif a == 14:
             os.system("cls")
             def Activity14():
+                print()
+                print()
+                print("\t\tACTIVITY 14")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF FOR LOOP WITH TWO VARIABLES")
                 for x in range ( 0, 11,):
                     print(x,end =" ")
                     for y in range (0, 11):
                         print("*",end = " ")
                     print("")
+                print('===========================================================')
             Activity14()
             continue
 
         elif a == 15:
             os.system("cls")
             def Activity15():
+                print()
+                print()
+                print("\t\tACTIVITY 15")
+                print('===========================================================')
+                print("THIS IS THE  ANOTHE EXAMPLE OF FOR LOOP WITH TWO VARIABLES")
                 for x in range ( 0, 11,):
                     print(x,end =" ")
-                for y in range (0, x):
-                    print("*",end = " ")
-                print("")
+                    for y in range (0, x):
+                        print("*",end = " ")
+                    print("")
             Activity15()
             continue
 
@@ -316,7 +347,8 @@ if b == 'yes'.lower():
             def Activity16(Activity16):
                 print()
                 print()
-                print("THIS IS ACTIVITY 16")
+                print("\t\tACTIVITY 16")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE OF FOR LOOP WITH NESTED CONDITION")
                 print()
                 print()
@@ -332,6 +364,11 @@ if b == 'yes'.lower():
         elif a == 17:
             os.system("cls")
             def Activity17():
+                print()
+                print()
+                print("\t\tACTIVITY 17")
+                print('===========================================================')
+                print("MULTIPLICATION TABLE")
                 col = eval(input("Enter number of columns---> "))
                 for x in range (1, 11):
                     for y in range (1, col + 1):
@@ -343,6 +380,11 @@ if b == 'yes'.lower():
         elif a == 18:
             os.system("cls")
             def Activity18():
+                print()
+                print()
+                print("\t\tACTIVITY 18")
+                print('===========================================================')
+                print("THIS IS THE  ANOTHE EXAMPLE OF FOR LOOP WITH TWO VARIABLES")
                 tri = eval(input("Enter a number of triangle---> "))
 
                 for x in range (1, 6):
@@ -358,9 +400,14 @@ if b == 'yes'.lower():
         elif a == 19:
             os.system("cls")
             def Activity19():
+                print()
+                print()
+                print("\t\tACTIVITY 19")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF WHILE LOOP")
                 tuloy = True
                 while tuloy == True:
-                    name = input("Enter your name: ")
+                    name = input('Enter your name:(type "stop" to terminate the loop) ')
                     if name.lower()== "stop":
                         print("PROGRAM TERMINATED")
                         break
@@ -373,6 +420,11 @@ if b == 'yes'.lower():
         elif a == 20:
             os.system("cls")
             def Activity20():
+                print()
+                print()
+                print("\t\tACTIVITY 20")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF WHILE LOOP AND FOR LOOP COMBINED")
                 import os
                 isContinue = True
                 no = 0
@@ -400,6 +452,11 @@ if b == 'yes'.lower():
         elif a == 21:
             os.system("cls")
             def Activity21():
+                print()
+                print()
+                print("\t\tACTIVITY 21")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF DEFINING A FUNCTION")
                 def pang_hello():
                     print("HELLO IT1C")
                 
@@ -408,7 +465,7 @@ if b == 'yes'.lower():
                 
                 tuloy = True
                 while tuloy == True:
-                    ask = input("Please provide a name --> ")
+                    ask = input('Please provide a name -->(type "stop" to terminate the loop) ')
                     if ask.lower() != "stop":
                         pang_hello_V2(ask)
                     else:
@@ -420,13 +477,32 @@ if b == 'yes'.lower():
         elif a == 22:
             os.system("cls")
             def Activity22():
-                print("wala pang gawa")
+                print()
+                print()
+                print("\t\tACTIVITY 22")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF COMBINATION OF LISTING AND WHILE LOOP")
+                tuloy = True
+                pangalan = []
+                while tuloy == True:
+                    name = input('What name would you like to add?(type "stop" to terminate the loop) ')
+                    if name.lower() == "stop":
+                        print(pangalan)
+                        print(f"You have entered {len(pangalan)} names! ")
+                        break
+                    else:
+                        pangalan.append(name)
             Activity22()
             continue
 
         elif a == 23:
             os.system("cls")
             def Activity23():
+                print()
+                print()
+                print("\t\tACTIVITY 23")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF DOCUMENTARY STRING")
                 #This function is for computing factorial
                 def factorial(number):
                     """This function again is for calculating the factorial of a number just provide a value, and it would be automatically compute the factorial"""
@@ -434,30 +510,58 @@ if b == 'yes'.lower():
                     for x in range (number, 0, -1):
                         fact *= x
                     return fact 
+                print("INPUT:")
+                print('def factorial(number):')
+                print('\t"""This function again is for calculating the factorial of a number just provide a value, and it would be automatically\n compute the factorial"""')
+                print('fact = 1\nfor x in range (number, 0, -1):\n\tfact *= x\nreturn fact')
             Activity23()
             continue
 
         elif a == 24:
             os.system("cls")
             def Activity24():
+                print()
+                print()
+                print("\t\tACTIVITY 24")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF MODULES AND IMPOTATION VARIABLE FROM ANOTHER FILE")
                 #MODULES
+                global sum
+                global num
 
-                from Activity23 import factorial
-
-                print(f"The factorial of 4 is {factorial(4)}")
+                from Activity13 import sum ,num
+                global sum
+                print(f"The factorial of {num} is {sum}")
+                
             Activity24()
             continue
             
         elif a == 25:
             os.system("cls")
             def Activity25():
-                print("wala pang gawa")
+                print()
+                print()
+                print("\t\tACTIVITY 25")
+                print('===========================================================')
+                print("THIS IS THE EXAMPLE OF LISTING")
+                #LIST
+                fruits1 = "apple"
+                fruits2 = "banana"
+                fruits3 = "orange"
+                fruits4 = "star apple"
+                fruits5 = "guyabano"
+                fruits = ["apples", "banana", "orange", "star apple", "guyabano"]
+                print(f"\n\t{fruits}")
+                print(f"\n\tMy favorite childhood fruit is {fruits[1]}")
+                fruits.append("longgan")
+                print(f"\n\t{fruits}")
             Activity25()
             continue
 
         elif a == 101:
             os.system("cls")
             def Code_Challenge1():
+                print("ESCAPE SEQUENCE")
                 print("THIS IS CODE CHALLENGE 1")
                 print("THIS IS THE EXAMPLE ON HOW YOU USE THE OPERATORS BUILT IN PYTHON")
                 print("\n\n\n\t\t\t\t\t\t\t\t\t\t\t\b\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t \t*\t*\t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*")
