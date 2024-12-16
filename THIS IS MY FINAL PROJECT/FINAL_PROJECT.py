@@ -218,7 +218,7 @@ if b == 'yes'.lower():
                         print("teenager")
                 elif age >= 8:
                         print("You are a pre teen")
-                elif age > 1:
+                elif age >= 1:
                         print("You are a toddler")
             Activity9()
             continue
@@ -384,7 +384,7 @@ if b == 'yes'.lower():
                 print()
                 print("\t\tACTIVITY 18")
                 print('===========================================================')
-                print("THIS IS THE  ANOTHE EXAMPLE OF FOR LOOP WITH TWO VARIABLES")
+                print("THIS IS THE  ANOTHER EXAMPLE OF FOR LOOP WITH TWO VARIABLES")
                 tri = eval(input("Enter a number of triangle---> "))
 
                 for x in range (1, 6):
@@ -524,7 +524,7 @@ if b == 'yes'.lower():
                 print()
                 print("\t\tACTIVITY 24")
                 print('===========================================================')
-                print("THIS IS THE EXAMPLE OF MODULES AND IMPOTATION VARIABLE FROM ANOTHER FILE")
+                print("THIS IS THE EXAMPLE OF MODULES AND IMPORTATION VARIABLE FROM ANOTHER FILE")
                 #MODULES
                 global sum
                 global num
@@ -1140,7 +1140,7 @@ if b == 'yes'.lower():
                         else:
                             print("Invalid option. Please try again.")
 
-                            options()
+                options()
             Code_Challenge16()
             continue
         elif a == 0:
