@@ -2,11 +2,25 @@
     # JOHN LESTER F. CASIPIT
     # BSIT-1C
 import os
+def balik_menu():
+    global tuloy
+    while tuloy:
+        balik = input("BACK TO MAIN MENU (YES/NO):").lower()
+        if balik == 'yes'.lower():
+            break
+        elif balik == 'no':
+            print("OKAY THANK YOU")
+            break
+        else:
+            print("Invalid input. Please answer with 'YES' or 'NO'.") 
+        break
 b=input ("Would you like to enter my final project? (yes/no): ")
 if b == 'yes'.lower():
     import os
     tuloy = True
     while tuloy == True:
+        
+        
         print("===========================================================================")
         print ("Activity  1 -- 1				Code Challenge  1 -- 101")
         print ("Activity  2 -- 2				Code Challenge  2 -- 102")
@@ -48,7 +62,7 @@ if b == 'yes'.lower():
                 print('|====================================================|')
                 print()
             Activity1()
-            continue
+            balik_menu()
 
         elif a == 2:
             os.system("cls")
@@ -64,7 +78,8 @@ if b == 'yes'.lower():
                 print ('OUTPUT: ( "Hi!" + name )')
                 print('===========================================================')
             Activity2()
-            continue
+            balik_menu()
+            
 
         elif a == 3:
             os.system("cls")
@@ -94,7 +109,7 @@ if b == 'yes'.lower():
                 print("\tHello, My name is,", pangalan ,"I'm", age ,"yrs old.\n\tI identify as", gender ,"\n\tMy father's name is", fname ,"\n\tMy mother's name is", mname ,"\n\tMy Bithday is in", birthmonth , birthdate , birthyear ,"\n\tI live in", address,"\n\tI am", maritalstatus ,"\n\tI am", ethnicity ,"Citizen\n\tMy mobile number is:", mobile ,"\n\tYou may contact me in my email:", email ,"\n\tThank You!!!")
                 print('===========================================================')
             Activity3()
-            continue
+            balik_menu()
 
         elif a == 4:
             os.system("cls")
@@ -109,7 +124,7 @@ if b == 'yes'.lower():
                 print("The sum of", number1 ,"and",number2,"is",answer)
                 print('===========================================================')
             Activity4()
-            continue
+            balik_menu()
 
         elif a == 5:
             os.system("cls")
@@ -123,10 +138,10 @@ if b == 'yes'.lower():
                 print('\t\t\t\t\t\t=================================')
                 temp=eval(input('\nEnter Temperature in Fahrenheit: '))
                 celsius=(temp - 32) * 5/9
-                print(f'\n\nThe conversion of {temp} degrees Fahrenheit is {celsius} degrees Celsius\n\nor')
                 print(f'\nThe conversion of {temp} degrees Fahrenheit is {round(celsius, 2)} degrees Celsius')
+                print('===========================================================')
             Activity5()
-            continue
+            balik_menu()
 
         elif a == 6:
             os.system("cls")
@@ -152,7 +167,7 @@ if b == 'yes'.lower():
                 print(x)
                 print('===========================================================')
             Activity6()
-            continue
+            balik_menu()
         elif a == 7:
             os.system("cls")
             def Activity7():
@@ -173,7 +188,7 @@ if b == 'yes'.lower():
                     print(f'Hi! {name}, Today you have a total of {gold} gold')
                     print('===========================================================')
             Activity7()
-            continue
+            balik_menu()
 
         elif a == 8:
             os.system("cls")
@@ -186,14 +201,17 @@ if b == 'yes'.lower():
                 if password.lower() == "lester" :
                     print('Access Granted!!!!')
                     print('Enjoy using the system')
+                   
                 elif password.lower() =='casipit':
                     print('Access Granted!!!!')
                     print('Enjoy using the system')
+                    
                 else:
                     print('Access Denied!!!!!')
                 print('Thank you for using the system')
+                print('===========================================================')
             Activity8()
-            continue
+            balik_menu()
 
         elif a == 9:
             os.system("cls")
@@ -220,8 +238,9 @@ if b == 'yes'.lower():
                         print("You are a pre teen")
                 elif age >= 1:
                         print("You are a toddler")
+                print('===========================================================')
             Activity9()
-            continue
+            balik_menu()
 
         elif a == 10:
             os.system("cls")
@@ -260,8 +279,9 @@ if b == 'yes'.lower():
                         print('Sorry, this Scholarship grant are only for resident of Cotta')
                 else:
                     print('Thanks for stopping by')
+                print('===========================================================')
             Activity10()
-            continue
+            balik_menu()
 
         elif a == 11:
             os.system("cls")
@@ -273,9 +293,9 @@ if b == 'yes'.lower():
                 print("THIS IS THE EXAMPLE OF THE FOR LOOP")
                 for me in range (1 , 10):
                     print(me, 'HELLO WORLD')
-                    print('===========================================================')
+                print('===========================================================')
             Activity11()
-            continue
+            balik_menu()
 
         elif a == 12:
             os.system("cls")
@@ -283,12 +303,13 @@ if b == 'yes'.lower():
                 print()
                 print()
                 print("\t\tACTIVITY 12")
+                print('===========================================================')
                 print("THIS IS THE EXAMPLE OF THE FOR LOOP")
                 for cycle in range (10,0,-1):
                     print(cycle)
-                    print('===========================================================')
+                print('===========================================================')
             Activity12()
-            continue
+            balik_menu()
 
         elif a == 13:
             os.system("cls")
@@ -306,7 +327,7 @@ if b == 'yes'.lower():
                 print(f"The factorial of {num} is {sum}")
                 print('===========================================================')
             Activity13()
-            continue
+            balik_menu()
 
 
         elif a == 14:
@@ -324,7 +345,7 @@ if b == 'yes'.lower():
                     print("")
                 print('===========================================================')
             Activity14()
-            continue
+            balik_menu()
 
         elif a == 15:
             os.system("cls")
@@ -339,8 +360,9 @@ if b == 'yes'.lower():
                     for y in range (0, x):
                         print("*",end = " ")
                     print("")
+                print('===========================================================')
             Activity15()
-            continue
+            balik_menu()
 
         elif a == 16:
             os.system("cls")
@@ -358,8 +380,9 @@ if b == 'yes'.lower():
                     for z in range(11, x, -1):
                         print(" * ",end=" ")
                     print()
+                print('===========================================================')
             Activity16(Activity16)
-            continue
+            balik_menu()
 
         elif a == 17:
             os.system("cls")
@@ -374,8 +397,9 @@ if b == 'yes'.lower():
                     for y in range (1, col + 1):
                         print(f"{x} x {y} = {x*y}" ,end="\t")
                     print()
+                print('===========================================================')
             Activity17()
-            continue
+            balik_menu()
 
         elif a == 18:
             os.system("cls")
@@ -394,8 +418,9 @@ if b == 'yes'.lower():
                         for z in range (6, x, -1):
                             print(" ",end=" ")
                     print()
+                print('===========================================================')
             Activity18()
-            continue
+            balik_menu()
         
         elif a == 19:
             os.system("cls")
@@ -414,8 +439,9 @@ if b == 'yes'.lower():
                         tuloy = False
                     else:
                         continue
+                print('===========================================================')
             Activity19()
-            continue
+            balik_menu()
 
         elif a == 20:
             os.system("cls")
@@ -446,8 +472,9 @@ if b == 'yes'.lower():
                                     print(" ",end=" ")
                             print()
                         continue
+                print('===========================================================')
             Activity20()
-            continue
+            balik_menu()
 
         elif a == 21:
             os.system("cls")
@@ -470,9 +497,9 @@ if b == 'yes'.lower():
                         pang_hello_V2(ask)
                     else:
                         break
-
+                print('===========================================================')       
             Activity21()
-            continue
+            balik_menu()
 
         elif a == 22:
             os.system("cls")
@@ -492,8 +519,9 @@ if b == 'yes'.lower():
                         break
                     else:
                         pangalan.append(name)
+                print('===========================================================')
             Activity22()
-            continue
+            balik_menu()
 
         elif a == 23:
             os.system("cls")
@@ -514,8 +542,9 @@ if b == 'yes'.lower():
                 print('def factorial(number):')
                 print('\t"""This function again is for calculating the factorial of a number just provide a value, and it would be automatically\n compute the factorial"""')
                 print('fact = 1\nfor x in range (number, 0, -1):\n\tfact *= x\nreturn fact')
+            print('===========================================================')
             Activity23()
-            continue
+            balik_menu()
 
         elif a == 24:
             os.system("cls")
@@ -532,9 +561,9 @@ if b == 'yes'.lower():
                 from Activity13 import sum ,num
                 global sum
                 print(f"The factorial of {num} is {sum}")
-                
+                print('===========================================================')
             Activity24()
-            continue
+            balik_menu()
             
         elif a == 25:
             os.system("cls")
@@ -555,8 +584,9 @@ if b == 'yes'.lower():
                 print(f"\n\tMy favorite childhood fruit is {fruits[1]}")
                 fruits.append("longgan")
                 print(f"\n\t{fruits}")
+                print('===========================================================')
             Activity25()
-            continue
+            balik_menu()
 
         elif a == 101:
             os.system("cls")
@@ -567,8 +597,9 @@ if b == 'yes'.lower():
                 print('===========================================================')
                 print("THIS IS THE EXAMPLE ON HOW YOU USE ESCAPE SEQUENCE")
                 print("\n\n\n\t\t\t\t\t\t\t\t\t\t\t\b\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t \t*\t*\t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*")
+                print('===========================================================')
             Code_Challenge1()
-            continue
+            balik_menu()
 
         elif a == 102:
             os.system("cls")
@@ -580,8 +611,9 @@ if b == 'yes'.lower():
                 print("THIS IS THE EXAMPLE ON HOW YOU USE ESCAPE SEQUENCE AND VARIABLE")
                 name = input("please enter your name ---->")
                 print(f"\n\n\n\t\t\t\t\t\t\t\t\t\t\t\b\t*\n\n\n\n\t\t\t\t\t\t\t\t\t      \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t \t*                  {name}                 \t*\n\n\n\n\t\t\t\t\t\t\t\t   \t*\t*\t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t     \t*\t*\t*\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t*")
+                print('===========================================================')
             Code_Challenge2()
-            continue
+            balik_menu()
 
         elif a == 103:
             os.system("cls")
@@ -606,10 +638,11 @@ if b == 'yes'.lower():
                 address = input("Please input your address here ---> ")
                 age = input(" Please input your age here ---> ")
 
-
-                print("\n\n\n\n\tHello, My name is,", name ,"I'm", age ,"yrs old.\n\tI identify as", gender ,"\n\tMy father's name is", fname ,"\n\tMy mother's name is", mname ,"\n\tMy Bithday is in", birthmonth , birthdate , birthyear ,"\n\tI live in", address,"\n\tI am", maritalstatus ,"\n\tI am", ethnicity ,"Citizen\n\tMy mobile number is:", mobile ,"\n\tYou may contact me in my email:", email ,"\n\tThank You!!!\n\n\n")
+                print('===========================================================')
+                print("\n\tHello, My name is,", name ,"I'm", age ,"yrs old.\n\tI identify as", gender ,"\n\tMy father's name is", fname ,"\n\tMy mother's name is", mname ,"\n\tMy Bithday is in", birthmonth , birthdate , birthyear ,"\n\tI live in", address,"\n\tI am", maritalstatus ,"\n\tI am", ethnicity ,"Citizen\n\tMy mobile number is:", mobile ,"\n\tYou may contact me in my email:", email ,"\n\tThank You!!!\n")
+                print('===========================================================')
             Code_Challenge3()
-            continue
+            balik_menu()
 
         elif a == 104:
             os.system("cls")
@@ -637,7 +670,7 @@ if b == 'yes'.lower():
                 print("the exponent of", no1 ,"and", no2 ,"is", ans6 ,)
                 print("the floor division of", no1 ,"and", no2 ,"is", ans7 ,)
             Code_Challenge4()
-            continue
+            balik_menu()
 
         elif a == 105:
             os.system("cls")
@@ -688,8 +721,9 @@ if b == 'yes'.lower():
                 print("   10--",g1,)
                 print("    5--",h1,)
                 print("    1--",i1,)
+                print('===========================================================')
             Code_Challenge5()
-            continue
+            balik_menu()
 
         elif a == 106:
             os.system("cls")
@@ -718,8 +752,9 @@ if b == 'yes'.lower():
                         print(f'your average is {grade}')
                 else:
                     print('INVALID GRADE')
+                print('===========================================================')
             Code_Challenge6()
-            continue
+            balik_menu()
 
         elif a == 107:
             os.system("cls")
@@ -801,8 +836,9 @@ if b == 'yes'.lower():
                         print("Insufficient Amount")
                 else :
                     print("Thankyou for stopping by!")
+            print('===========================================================')
             Code_Challenge7()
-            continue
+            balik_menu()
         
         elif a == 108:
             os.system("cls")
@@ -827,8 +863,9 @@ if b == 'yes'.lower():
                 print(f'The sum of all numbers given is {sum}')
                 print(f'The odd of all numbers given is {odd}')
                 print(f'The even of all numbers given is {even}')
+                print('===========================================================')
             Code_Challenge8()
-            continue
+            balik_menu()
 
         elif a == 109:
             os.system("cls")
@@ -843,8 +880,9 @@ if b == 'yes'.lower():
                     for y in range(a,x,-1):
                         print(" ",end=" ")
                     print("* "*x)
+                print('===========================================================')
             Code_Challenge9()
-            continue
+            balik_menu()
 
         elif a == 110:
             os.system("cls")
@@ -871,8 +909,9 @@ if b == 'yes'.lower():
                     for xx in range(6, x, -1):
                         print("*",end=" ")
                     print()
+                print('===========================================================')
             Code_Challenge10()
-            continue
+            balik_menu()
 
         elif a == 111:
             os.system("cls")
@@ -899,8 +938,9 @@ if b == 'yes'.lower():
                     for xx in range(6, x, -1):
                         print("*",end=" ")
                     print()
+                print('===========================================================')
             Code_Challenge11()
-            continue
+            balik_menu()
 
         elif a == 112:
             os.system("cls")
@@ -925,8 +965,9 @@ if b == 'yes'.lower():
                     for z in range(1, 4):
                         print("*",end=" ")
                     print()
+                print('===========================================================')
             Code_Challenge12()
-            continue
+            balik_menu()
 
         elif a == 113:
             os.system("cls")
@@ -953,8 +994,9 @@ if b == 'yes'.lower():
                     for xx in range(1,x + 1):
                          print(xx,end=" ")
                     print()
+                print('===========================================================')
             Code_Challenge13()
-            continue
+            balik_menu()
 
         elif a == 114:
             os.system("cls")
@@ -976,8 +1018,9 @@ if b == 'yes'.lower():
                     else:
                         a += number
                         continue
+                print('===========================================================')
             Code_Challenge14()
-            continue
+            balik_menu()
 
         elif a == 115:
             os.system("cls")
@@ -1009,8 +1052,9 @@ if b == 'yes'.lower():
                     else:
                         print('Invalid, answer must be ("yes" or "no")')
                         continue
+                print('===========================================================')
             Code_Challenge15()
-            continue
+            balik_menu()
         
         elif a == 116:
             os.system("cls")
@@ -1141,8 +1185,9 @@ if b == 'yes'.lower():
                             print("Invalid option. Please try again.")
 
                 options()
+            print('===========================================================')
             Code_Challenge16()
-            continue
+            balik_menu()
         elif a == 0:
             print("THANK YOU FOR VISITING MY FINAL PROJECT")
             break
