@@ -53,6 +53,7 @@ if b == 'yes'.lower():
             os.system("cls")
             def Activity1():
                 print()
+                print()
                 print("\t\tACTIVITY 1")
                 print('|====================================================|')
                 print("|This is the example on how you print                |")
@@ -67,6 +68,7 @@ if b == 'yes'.lower():
         elif a == 2:
             os.system("cls")
             def Activity2():
+                print()
                 print()
                 print("\t\tACTIVITY 2")
                 print('===========================================================')
