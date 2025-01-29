@@ -64,7 +64,7 @@ if b == 'yes'.lower():
                 print()
             Activity1()
             balik_menu()
-
+            
         elif a == 2:
             os.system("cls")
             def Activity2():
